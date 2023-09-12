@@ -1,0 +1,78 @@
+{
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/60030906",
+                "amenity": "drinking_water",
+                "bottle": "yes",
+                "dog": "yes",
+                "drinking_water:description": "Quellwasser",
+                "material": "metal",
+                "name": "Notwasserbrunnen",
+                "operator": "WVZ",
+                "ref": "6081",
+                "wheelchair": "yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.5412781,
+                    47.4135343
+                ]
+            },
+            "id": "node/60030906"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/60733338",
+                "amenity": "drinking_water",
+                "artist_name": "Hans Jakob Meyer",
+                "bottle": "yes",
+                "dog": "no",
+                "drinking_water:description": "Leitungswasser",
+                "fountain": "drinking",
+                "material": "stone",
+                "name": "Tränkbrunnen Höngg",
+                "operator": "WVZ",
+                "ref": "465",
+                "wheelchair": "yes",
+                "wikidata": "Q27230124"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.4999404,
+                    47.40283
+                ]
+            },
+            "id": "node/60733338"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "@id": "node/60733384",
+                "amenity": "drinking_water",
+                "bottle": "yes",
+                "description": "Wandbrunnen",
+                "dog": "no",
+                "drinking_water:description": "Leitungswasser",
+                "fountain": "drinking",
+                "material": "stone",
+                "operator": "WVZ",
+                "ref": "454",
+                "wheelchair": "limited",
+                "wikidata": "Q55166671"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.4994418,
+                    47.4021637
+                ]
+            },
+            "id": "node/60733384"
+        }
+    ]
+}

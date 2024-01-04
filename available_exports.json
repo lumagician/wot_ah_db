@@ -1,38 +1,32 @@
 [
   {
     "filename": "Switzerland.geojson",
-    "amount_of_features": 0,
-    "file_size": 42,
-    "hash": "bbaae5134a5ccb0be47990ad4fbfe6c1"
+    "file_size": 1623844,
+    "hash": "15043fbfd1e15a0646f808e319382c6b"
   },
   {
     "filename": "Italy.geojson",
-    "amount_of_features": 0,
-    "file_size": 42,
-    "hash": "bbaae5134a5ccb0be47990ad4fbfe6c1"
+    "file_size": 6970201,
+    "hash": "5354120139727b0db59618998ce768eb"
   },
   {
     "filename": "Austria.geojson",
-    "amount_of_features": 0,
-    "file_size": 42,
-    "hash": "bbaae5134a5ccb0be47990ad4fbfe6c1"
+    "file_size": 816215,
+    "hash": "5c29abf3b53e6c2234e5f5bea21462b9"
   },
   {
     "filename": "Germany.geojson",
-    "amount_of_features": 0,
-    "file_size": 42,
-    "hash": "bbaae5134a5ccb0be47990ad4fbfe6c1"
+    "file_size": 991379,
+    "hash": "a270d0d8265eb0dbfdfaf83011c180ca"
   },
   {
     "filename": "France.geojson",
-    "amount_of_features": 0,
-    "file_size": 42,
-    "hash": "bbaae5134a5ccb0be47990ad4fbfe6c1"
+    "file_size": 2511962,
+    "hash": "02d02309460bc0b8daacd4a57ece16d1"
   },
   {
     "filename": "Liechtenstein.geojson",
-    "amount_of_features": 0,
-    "file_size": 42,
-    "hash": "bbaae5134a5ccb0be47990ad4fbfe6c1"
+    "file_size": 6603,
+    "hash": "b0d04c0068ad613321ea512846cb1e33"
   }
 ]

@@ -22,7 +22,6 @@ query_template = """
 [out:json][timeout:25];
 area["ISO3166-1"="{}"][admin_level=2];
 node["amenity"="drinking_water"](area);
-node["amenity"="fountain"](area);
 out center;
 """
 
@@ -39,9 +38,9 @@ for area in AREA_LIST:
         # the response was not successful
         print("Error: Could not get data from overpass api")
         exit()
+
     # restructure the response to be a geojson
     response = response.json()
-    response = {"type": "FeatureCollection", "features": response["elements"]}
     # minify the response
     response = json.dumps(response, separators=(',', ':'))
     # write the response to a file

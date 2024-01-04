@@ -37,8 +37,6 @@ for export in available_exports:
     with open(os.path.join(export_directory, export), 'r') as f2:
         # read the file
         data = json.load(f2)
-        # get the amount of features in the file
-        amount_of_features = len(data["features"])
         # get the file size
         file_size = os.path.getsize(os.path.join(export_directory, export))
         # get the hash of the file
@@ -46,7 +44,7 @@ for export in available_exports:
             # read the file
             hash_value = f3.read()
             # create a dictionary with the filename, the amount of features, the file size, and the hash
-            export_dict = {"filename": export, "amount_of_features": amount_of_features, "file_size": file_size, "hash": hash_value}
+            export_dict = {"filename": export, "file_size": file_size, "hash": hash_value}
             # append the dictionary to the list
             export_list.append(export_dict)
 

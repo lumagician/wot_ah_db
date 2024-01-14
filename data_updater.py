@@ -42,21 +42,6 @@ for area in AREA_LIST:
 
     # restructure the response to be a geojson
     response = response.json()
-
-    # rearrange the response to be a geojson
-    response = {
-        "type": "FeatureCollection",
-        "features": [
-            {
-                "type": "Feature",
-                "properties": node["tags"],
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [node["lon"], node["lat"]]
-                }
-            } for node in response["elements"]
-        ]
-    }
     # minify the response
     response = json.dumps(response, separators=(',', ':'))
     # write the response to a file

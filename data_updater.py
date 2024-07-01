@@ -22,7 +22,6 @@ query_template = """
 [out:json][timeout:25];
 area["ISO3166-1"="{}"][admin_level=2];
 node["amenity"="drinking_water"](area);
-node["amenity"="fountain"](area);
 out center;
 """
 
